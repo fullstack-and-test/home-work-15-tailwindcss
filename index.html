@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Home Work 15: Tailwindcss</title>
+		<link rel="stylesheet" href="dist/output.css" />
+	</head>
+	<body id="body" class="font-roboto">
+		<div class="wrapper">
+			<nav class="navigation__wrapper">
+				<div class="navigation__container">
+					<div>
+						<img src="img/service-icon.png" alt="logo" class="logo__image" />
+						<span class="logo__title">Portfolio.</span>
+					</div>
+					<ul class="menu__list-md">
+						<li class="menu__item__link"><a href="#">homepage</a></li>
+						<li class="menu__item__link"><a href="#about">about me</a></li>
+						<li class="menu__item__link">
+							<a href="#services">services</a>
+						</li>
+						<li class="menu__item__link"><a href="#portfolio">works</a></li>
+						<li class="menu__item__link">
+							<a href="#contacts">contacts</a>
+						</li>
+					</ul>
+					<img
+						id="moon"
+						src="img/moon.png"
+						alt="moon dark-mode icon"
+						class="theme__icon"
+					/>
+
+					<div id="hamburger" class="hamburger__button">
+						<div class="hamburger__line"></div>
+						<div class="hamburger__line"></div>
+						<div class="hamburger__line"></div>
+					</div>
+					<ul id="menu" class="menu__list-sm hidden">
+						<li><a href="#">homepage</a></li>
+						<li><a href="#about">about me</a></li>
+						<li><a href="#services">services</a></li>
+						<li><a href="#portfolio">works</a></li>
+						<li><a href="#contacts">contacts</a></li>
+					</ul>
+				</div>
+			</nav>
+			<!-- Hero section -->
+
+			<img class="hero__image" src="img/person.png" alt="person" />
+			<div class="hero__block"></div>
+			<div class="hero__block-2">
+				<span class="hero__title">Freelance</span>
+				<p id="text" class="hero__accent"></p>
+			</div>
+			<div class="hero__shadow">
+				<h1 class="hero__header">Hi, I'm Jane</h1>
+				<p class="hero__text">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
+					iusto ullam rerum, libero odio dolor, in magnam sequi perspiciatis
+					debitis est modi praesentium adipisci ipsam fuga ad aliquid totam
+					deleniti!
+				</p>
+				<a href="#contacts" class="hero__link">Hire</a>
+			</div>
+		</div>
+
+		<!--About me-->
+		<div id="about" class="about__wrapper">
+			<div class="about__container">
+				<div class="relative">
+					<img src="img/dots.png" alt="dots" class="about__background" />
+					<div class="about__image">
+						<img src="img/portrait.png" alt="portrait" />
+					</div>
+				</div>
+				<div class="about__block">
+					<h2 class="about__header">About me</h2>
+					<h2 class="about__subheader">Better design</h2>
+					<h2 class="about__subheader">Better experience</h2>
+					<p class="about__text">
+						Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae,
+						facere tempore expedita a tenetur soluta. Mollitia nostrum, soluta
+						cumque molestiae autem adipisci enim, sunt voluptates ipsa
+						consequuntur voluptatem necessitatibus expedita.
+					</p>
+					<h3 class="about__skill_text">HTML</h3>
+					<div class="about__skill__bar">
+						<div class="about__skill__progress-max"></div>
+					</div>
+					<h3 class="about__skill_text">Javascript</h3>
+					<div class="about__skill__bar">
+						<div class="about__skill__progress-medium"></div>
+					</div>
+					<h3 class="about__skill_text">React</h3>
+					<div class="about__skill__bar">
+						<div class="about__skill__progress-large"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--Services-->
+		<div class="services__wrapper">
+			<div class="services__container">
+				<div class="services__header">
+					<h2 class="services__title">Services</h2>
+					<h2 class="services__subtitle">What do I offer?</h2>
+					<p class="services__text">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora
+					</p>
+					<p class="services__text">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora
+					</p>
+				</div>
+				<!--Cards-->
+				<div class="cards__container">
+					<div class="card__item">
+						<img
+							src="img/service-icon.png"
+							alt="service-icon"
+							class="card__item__image"
+						/>
+						<h3 class="card__item__title">UX / UI Design</h3>
+						<p class="card__item__text">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit
+						</p>
+						<a class="card__item__link" href="#">Read More</a>
+					</div>
+					<div class="card__item">
+						<img
+							src="img/service-icon.png"
+							alt="service-icon"
+							class="card__item__image"
+						/>
+						<h3 class="card__item__title">UX / UI Design</h3>
+						<p class="card__item__text">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit
+						</p>
+						<a class="card__item__link" href="#">Read More</a>
+					</div>
+					<div class="card__item">
+						<img
+							src="img/service-icon.png"
+							alt="service-icon"
+							class="card__item__image"
+						/>
+						<h3 class="card__item__title">UX / UI Design</h3>
+						<p class="card__item__text">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit
+						</p>
+						<a class="card__item__link" href="#">Read More</a>
+					</div>
+					<div class="card__item">
+						<img
+							src="img/service-icon.png"
+							alt="service-icon"
+							class="card__item__image"
+						/>
+						<h3 class="card__item__title">UX / UI Design</h3>
+						<p class="card__item__text">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit
+						</p>
+						<a class="card__item__link" href="#">Read More</a>
+					</div>
+					<div class="card__item">
+						<img
+							src="img/service-icon.png"
+							alt="service-icon"
+							class="card__item__image"
+						/>
+						<h3 class="card__item__title">UX / UI Design</h3>
+						<p class="card__item__text">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit
+						</p>
+						<a class="card__item__link" href="#">Read More</a>
+					</div>
+					<div class="card__item">
+						<img
+							src="img/service-icon.png"
+							alt="service-icon"
+							class="card__item__image"
+						/>
+						<h3 class="card__item__title">UX / UI Design</h3>
+						<p class="card__item__text">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit
+						</p>
+						<a class="card__item__link" href="#">Read More</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--Portfolio-->
+		<div class="portfolio__wrapper">
+			<div id="portfolio" class="portfolio__container">
+				<div class="portfolio__header">
+					<h2 class="portfolio__title">Works</h2>
+					<p class="portfolio__text">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora
+						inventore provident, dolores praesentium nostrum nobis dolor
+						architecto aliquam accusamus sint facilis atque, assumenda vero
+						corporis laboriosam qui! Ea, tempore porro!
+					</p>
+				</div>
+				<div class="portfolio__items">
+					<div class="portfolio__item">
+						<img
+							src="img/item.png"
+							alt="portfolio-icon"
+							class="portfolio__item__image"
+						/>
+					</div>
+					<div class="portfolio__item">
+						<img
+							src="img/item.png"
+							alt="portfolio-icon"
+							class="portfolio__item__image"
+						/>
+					</div>
+					<div class="portfolio__item">
+						<img
+							src="img/item.png"
+							alt="portfolio-icon"
+							class="portfolio__item__image"
+						/>
+					</div>
+					<div class="portfolio__item">
+						<img
+							src="img/item.png"
+							alt="portfolio-icon"
+							class="portfolio__item__image"
+						/>
+					</div>
+					<div class="portfolio__item">
+						<img
+							src="img/item.png"
+							alt="portfolio-icon"
+							class="portfolio__item__image"
+						/>
+					</div>
+					<div class="portfolio__item">
+						<img
+							src="img/item.png"
+							alt="portfolio-icon"
+							class="portfolio__item__image"
+						/>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--Contact-->
+		<div class="contact__wrapper">
+			<div id="contacts" class="contact__container">
+				<h2 class="contact__header">Contact</h2>
+				<h3 class="contact__subheader">Have a question?</h3>
+				<p class="contact__text">
+					Lorem, ipsum dolor sit amet consectetur adipisicing elit
+				</p>
+
+				<form action="#" class="contact__form">
+					<input
+						class="contact__input"
+						type="text"
+						placeholder="Name Surname"
+					/>
+					<input class="contact__input" type="email" placeholder="Email" />
+					<textarea
+						class="contact__input"
+						cols="10"
+						rows="5"
+						placeholder="Message..."
+					></textarea>
+					<button class="contact__button">Submit</button>
+				</form>
+			</div>
+		</div>
+		<!--Footer-->
+		<div class="footer">
+			<footer class="">
+				<span class="footer__text">&copy; 2024 Example</span>
+				<span class="footer__text">based on Lama Dev tutorial</span>
+			</footer>
+		</div>
+		<script src="js/main.js"></script>
+		<script src="js/autotyping.js"></script>
+	</body>
+</html>
